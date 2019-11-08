@@ -23,7 +23,7 @@ defmodule Hw07.Timesheets.Timesheet do
     field :total, :integer
     field :status, :string
 
-    belongs_to :user, Hw06.Users.User
+    belongs_to :user, Hw07.Users.User
 
     timestamps()
   end
